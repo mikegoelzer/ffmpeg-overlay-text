@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Debug ffmpeg-overlay-text",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/ffmpeg-overlay-text.py",
+            "args": [
+                "-i", "${workspaceFolder}/example/demo.mp4",
+                "-c", "${workspaceFolder}/example/commands.txt"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
