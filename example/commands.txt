@@ -12,6 +12,6 @@
 "arithmetic demo (4)":red:48:bottom:4-5
 "arithmetic demo (4)":red:48:bottom:5-6
 
-# Example:  display "THE END" (with escaped quotes) at the top of the video in 
-# green for the last 6 seconds of the 10 second video
-"\"THE END\"":green:96:top:6-10
+# Example:  display "THE END" at the top of the video in green from second 6
+# until the end of the video (at second 10)
+"THE END":green:96:top:6-10
