@@ -5,7 +5,7 @@ Simple and very limited tool to overlay text on top of a video file.  Mostly wri
 To run the example:
 
 ```sh
-# to view on screen with ffplay (add `-o output.mp4` to save to a new file)
+# to view on screen with ffplay (add `-o output.mp4` to save to a new file instead)
 python3 ffmpeg-overlay-text.py -i example/demo.mp4 -c example/commands.txt
 ```
 
